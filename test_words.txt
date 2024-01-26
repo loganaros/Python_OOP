@@ -1,0 +1,7 @@
+# Fruits
+kale
+tomato
+
+# Veggies
+strawberry
+kiwi

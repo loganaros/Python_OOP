@@ -20,3 +20,19 @@ class SerialGenerator:
     100
     """
 
+    def __init__(self, start):
+        """Create a new generator, starting value is start"""
+        
+        self.next = start
+        self.start = start
+
+    def generate(self):
+        """Returns next value"""
+
+        self.next += 1
+        return self.next - 1
+
+    def reset(self):
+        """Resets value to start value"""
+
+        self.next = self.start
